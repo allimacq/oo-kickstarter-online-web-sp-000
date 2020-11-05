@@ -11,6 +11,7 @@ class Backer
   def back_project(project)
     @project = project
     @backed_projects << @project
+    p @name
   end
 
   #describe 'Backer - More Advanced #back_project' do
