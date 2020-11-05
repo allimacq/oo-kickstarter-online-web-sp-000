@@ -13,7 +13,7 @@ class Backer
     
     @backed_projects << @project
     @backed_projects.collect do |backers|
-      backers << @name
+      @backed_projects.backers << @name
     end
     #new_backer = Backer.new(@name)
     #add_backer_to_project = @project.add_backer(new_backer)
