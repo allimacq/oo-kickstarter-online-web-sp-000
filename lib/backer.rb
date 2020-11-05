@@ -15,7 +15,7 @@ class Backer
     add_backer_to_project = @project.add_backer(new_backer)
     p add_backer_to_project
     add_backer_to_project.collect do |backed_projects|
-      p backed_projects
+      p backed_projects.backed_projects
     end
    #p @backed_projects
    
