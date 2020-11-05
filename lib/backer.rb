@@ -12,8 +12,10 @@ class Backer
     @project = project
     @backed_projects << @project
     new_backer = Backer.new(@name)
-    #p @project.add_backer(new_backer)
+    add_backer_to_project = @project.add_backer(new_backer)
+    p add_backer_to_project
    #p @backed_projects
+   
   end
 
   #describe 'Backer - More Advanced #back_project' do
