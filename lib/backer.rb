@@ -12,7 +12,8 @@ class Backer
     @project = project
     
     @backed_projects << @project
-    p @backed_projects.backers
+    p @backed_projects
+    p self
     #@backed_projects.collect do |projects|
      # projects.backed_projects << @name
     #end
