@@ -25,7 +25,10 @@ class Backer
   
   
   def back_project(project)
+    @name = name
+    new_backer = Backer.new(name)
     @project = project
+  end
     
 
 
