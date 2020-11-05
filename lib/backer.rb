@@ -6,7 +6,12 @@ class Backer
     @name = name
     @backed_projects = [ ]
   end
-  
+
+  def back_project(project)
+    @project = project
+    @backed_projects << @project
+  end
+
   #describe 'Backer - More Advanced #back_project' do
   #it 'also adds the backer to the project\'s backers array' do
    # logan = Backer.new("Logan")
@@ -19,10 +24,10 @@ class Backer
   #end
   
   
-  
   def back_project(project)
     @project = project
-    @backed_projects << @project
-  end
+    
+
+
   
 end
