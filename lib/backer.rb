@@ -26,17 +26,6 @@ class Backer
     # some more magic needs to happen? There's really only one place it can happen.
     #expect(hoverboard.backers).to include(logan)
   #end
-  
-  
-  def more_advanced_back_project(project)
-    @name = name
-    @project = project
-    new_backer = Backer.new(@name)
-    @project.add_backer(new_backer)
-    @backed_projects << @project
-  end
-    
-
 
   
 end
