@@ -24,7 +24,7 @@ class Backer
   #end
   
   
-  def back_project(project)
+  def more_advanced_back_project(project)
     @name = name
     new_backer = Backer.new(name)
     @project = project
