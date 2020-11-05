@@ -9,9 +9,8 @@ class Backer
   end
 
   def back_project(project)
-    p self
-    #@project = project
-    #@backed_projects << @project
+    @project = project
+    @backed_projects << @project
   end
 
   #describe 'Backer - More Advanced #back_project' do
