@@ -32,6 +32,7 @@ class Backer
     @project = project
     new_backer = Backer.new(@name)
     @project.add_backer(new_backer)
+    @backed_projects << @project
   end
     
 
