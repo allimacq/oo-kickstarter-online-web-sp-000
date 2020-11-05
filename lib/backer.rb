@@ -15,6 +15,7 @@ class Backer
     p @backed_projects
     #p @project.add_backer(new_backer)
    #p @backed_projects
+   p self
   end
 
   #describe 'Backer - More Advanced #back_project' do
