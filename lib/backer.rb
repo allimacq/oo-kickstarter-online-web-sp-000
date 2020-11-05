@@ -12,6 +12,7 @@ class Backer
     @project = project
     
     @backed_projects << @project
+    p @backed_projects
     #new_backer = Backer.new(@name)
     #add_backer_to_project = @project.add_backer(new_backer)
     ##want to add the back to the PROJECTS'S backers array
